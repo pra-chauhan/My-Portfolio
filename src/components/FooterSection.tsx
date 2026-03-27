@@ -4,9 +4,9 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.5 } };
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Github, href: "https://github.com/pra-chauhan", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/pragya24y", label: "LinkedIn" },
+  // { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Mail, href: "mailto:prachauhan12@gmail.com", label: "Email" },
 ];
 
