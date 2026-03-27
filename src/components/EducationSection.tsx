@@ -6,24 +6,16 @@ const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0
 const education = [
   {
     degree: "B.Tech in Computer Science",
-    school: "Your University Name",
-    period: "2021 – 2025",
-    grade: "CGPA: 8.5 / 10",
-    details: "Relevant coursework: Data Structures, Algorithms, DBMS, Web Development, Machine Learning",
+    school: "COER University",
+    period: "2024 – 2028",
+    grade: "CGPA: 8.8 / 10",
+    details: "Relevant coursework: Data Structures, Algorithms, DBMS, Web Development, AIML",
   },
   {
-    degree: "Higher Secondary (XII)",
-    school: "Your School Name",
-    period: "2019 – 2021",
-    grade: "Percentage: 92%",
-    details: "Science stream with Mathematics and Computer Science",
-  },
-  {
-    degree: "Secondary (X)",
-    school: "Your School Name",
-    period: "2019",
-    grade: "Percentage: 90%",
-    details: "",
+    degree: "Higher Secondary (XII) & Secondary (X) Education",
+    school: "Maa Saraswati Public School",
+    period: "2023-2024 & 2021-2022",
+    details: "Science stream with Mathematics ",
   },
 ];
 

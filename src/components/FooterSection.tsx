@@ -7,7 +7,7 @@ const socials = [
   { icon: Github, href: "#", label: "GitHub" },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:email@example.com", label: "Email" },
+  { icon: Mail, href: "mailto:prachauhan12@gmail.com", label: "Email" },
 ];
 
 const FooterSection = () => {
@@ -36,7 +36,7 @@ const FooterSection = () => {
           </div>
 
           <p className="text-xs text-muted-foreground font-body">
-            © {new Date().getFullYear()} Your Name. Built with passion.
+            © {new Date().getFullYear()} Pragya Chauhan. Built with passion.
           </p>
         </motion.div>
       </div>

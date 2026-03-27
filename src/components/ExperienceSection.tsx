@@ -5,25 +5,15 @@ const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0
 
 const experiences = [
   {
-    role: "Software Development Intern",
-    company: "Company Name",
-    period: "Jun 2024 – Aug 2024",
+    role: "Full Stack Developer Intern",
+    company: "NovaNectar Services Pvt. Ltd.",
+    period: "May 2025 – July 2024",
     points: [
-      "Developed and maintained full-stack features using React and Node.js",
-      "Collaborated with a team of 5 engineers in an Agile environment",
-      "Improved API response times by 30% through query optimization",
+      "Developed and maintained full-stack E-Commerce web applications using React, Node.js, and MongoDB",
+      "Lead team of 4 interns to develop company's Employee Management System, applied my Git, project management, and leadership skills to ensure timely delivery and high code quality",
     ],
   },
-  {
-    role: "Web Development Intern",
-    company: "Company Name",
-    period: "Jan 2024 – Mar 2024",
-    points: [
-      "Built responsive landing pages and dashboards for client projects",
-      "Integrated third-party APIs for payment processing and analytics",
-      "Wrote unit tests achieving 85% code coverage",
-    ],
-  },
+  
 ];
 
 const ExperienceSection = () => {

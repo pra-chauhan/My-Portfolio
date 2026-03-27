@@ -4,10 +4,10 @@ import { Award, Trophy, Star, Medal } from "lucide-react";
 const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.5 } };
 
 const achievements = [
-  { icon: Trophy, title: "Hackathon Winner", description: "1st place at XYZ National Hackathon 2024" },
-  { icon: Star, title: "Dean's List", description: "Consistent academic excellence across 4 semesters" },
-  { icon: Award, title: "Open Source Contributor", description: "Contributed to 5+ open source projects with 200+ GitHub contributions" },
-  { icon: Medal, title: "Coding Competition", description: "Top 50 in National Level Coding Championship" },
+  { icon: Trophy, title: "Hackathon Winner", description: "1st place at HACKINDIA Spark 9 Hackathon 2025" },
+  { icon: Star, title: "1st Runner-Up", description: "2nd place at MANTHAN National Hackathon 2024" },
+  { icon: Award, title: "Winner", description: "University Internal Hackathon 8.0 2026" },
+  { icon: Medal, title: "Student Leader", description: "D-Coders Squad (University's Tech Club) - Application Development Group Team Lead" },
 ];
 
 const AchievementsSection = () => {

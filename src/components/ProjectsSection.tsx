@@ -5,25 +5,25 @@ const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with cart, payment integration, and admin dashboard built with React and Node.js.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "#",
-    live: "#",
+    title: "DocuSynth AI",
+    description: "AI-Powered Legal Document Summarizer, an advanced tool designed to streamline the analysis of complex legal documents. Key Features - text extraction, clause detection, multilingual translation, summarization and named entity recognition",
+    tech: ["Python", "OpenAI", "RAG", "Streamlit", "LangChain", "VectorDB"],
+    github: "https://github.com/pra-chauhan/DocuSynthAI.git",
+    // live: "#",
   },
   {
-    title: "AI Chat Application",
-    description: "Real-time chat application with AI-powered responses, user authentication, and message history.",
-    tech: ["Next.js", "OpenAI", "PostgreSQL", "WebSocket"],
-    github: "#",
-    live: "#",
+    title: "AI Crop Recommendation System",
+    description: "AI-powered crop recommendation system that provides personalized suggestions based on soil conditions, weather data, and historical yields.",
+    tech: ["Python", "React", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/pra-chauhan/Ai-crop.git",
+    // live: "#",
   },
   {
-    title: "Task Management Tool",
-    description: "A collaborative task management tool with drag-and-drop boards, real-time updates, and team features.",
-    tech: ["React", "TypeScript", "Supabase", "Tailwind"],
-    github: "#",
-    live: "#",
+    title: "HerPulseAI",
+    description: "A health and wellness app designed specifically for PCOS/PCOD patients, offering personalized insights, symptom tracking, and lifestyle recommendations to manage their condition effectively.",
+    tech: ["Machine Learning", "Random Forest", "XGboost", "Logistic Regression", "Python", "FASTAPI", "Streamlit"],
+    github: "https://github.com/pra-chauhan/HerPulseAI.git",
+    // live: "#",
   },
 ];
 
@@ -57,9 +57,9 @@ const ProjectsSection = () => {
                 <a href={project.github} className="text-muted-foreground hover:text-primary transition-colors">
                   <Github size={18} />
                 </a>
-                <a href={project.live} className="text-muted-foreground hover:text-primary transition-colors">
+                {/* <a href={project.live} className="text-muted-foreground hover:text-primary transition-colors">
                   <ExternalLink size={18} />
-                </a>
+                </a> */}
               </div>
             </motion.div>
           ))}

@@ -14,10 +14,10 @@ const HeroSection = () => {
           <p className="text-primary font-display font-medium text-sm tracking-widest uppercase mb-4">Welcome to my portfolio</p>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] text-foreground mb-6">
             Hi, I'm<br />
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">Pragya Chauhan</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-lg leading-relaxed font-body mb-8">
-            A passionate student & aspiring developer building impactful solutions through code, creativity, and continuous learning.
+            Passionate Student || Aspiring Developer || Curious Learner.
           </p>
           <div className="flex gap-4 flex-wrap">
             <button
